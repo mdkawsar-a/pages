@@ -1,0 +1,135 @@
+*{
+  padding: 0;
+  margin: 0;
+  outline: 0;
+}
+a,ul{
+  text-decoration:none;
+  list-style:none;
+}
+.container{
+  margin: auto;
+  width:940px;
+  padding-left: -15px;
+  padding-right: -15px;
+}
+/*header part css start*/
+.info{
+  font-size:30px;
+  font-family:Sans-Serif;
+  color:#ff5200;
+  background:#ddd;
+}
+.wrapper{
+  overflow:hidden;
+  height: 100px;
+  position: sticky;
+  top:0;
+}
+.wrapper h4{
+  float:left;
+  font-size:19px;
+  margin-top:0px;
+  font-family:Arial black;
+  color:#000;
+  letter-spacing:0.5px;
+  text-transform:uppercase;
+  width:100px;
+  line-height: 100px;
+}
+.mainmenu{
+  overflow: hidden;
+  float: right;
+  width:700px;
+  margin-right:-5px;
+}
+.menu {
+float: right;
+}
+.menu li{
+  float: left;
+  transition: 0.3s;
+}
+.menu li a{
+  padding: 11px;
+  color:#000;
+  font-family:Sans-Serif;
+  font-size:18px;
+  letter-spacing: 0.6px;
+  text-transform:uppercase;
+  font-weight:bold;
+  transition: 0.3s;
+  line-height: 100px;
+}
+.menu li a:hover{
+  color:#ff5200;
+  transition: 0.3s;
+  background: #ddd;
+}
+/*header part css end*/
+/*slider part css start*/
+#slider{
+  background: url("image.jpeg");
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position: center;
+}
+.contenWrp{
+  overflow: hidden;
+  padding: 80px 0px;
+  position: relative;
+}
+.textWrp{
+  overflow: hidden;
+  width:500px;
+}
+.textWrp h2{
+  color:#000;
+  font-family: Sans-Serif;
+  font-size: 25px;
+  padding: 10px;
+  letter-spacing: 0.5px;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+.textWrp p{
+  color:#000;
+  font-family: Sans-Serif;
+  font-size: 16px;
+  margin-top:7px;
+  padding: 5px;
+  width: 450px;
+  letter-spacing: 0.5px;
+  line-height: 25px;
+  font-weight: 600px;
+}
+#sliderBtn{
+  padding: 18px;
+  display: block;
+  width: 100px;
+  color:#fff;
+  font-family: Sans-Serif;
+  font-size: 16px;
+  margin-top:30px;
+  background: #000;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius:10px ;
+  letter-spacing: 0.5px;
+  transition:0.3s;
+}
+#sliderBtn:hover{
+  background:#ff5200;
+  color:#000;
+  transition:0.3s;
+}
+.myimage{
+  width:0px;
+  position: absolute;
+  top:80px;
+  right: 250px;
+}
+.myimage img{
+  border-radius:50%;
+}
+/*slider part css end*/
